@@ -25,7 +25,7 @@ Press CTRL+C to quit
 
 - in your terminal run the command: ```curl http://localhost:1234``` because the list is empty you will see ```{"TODO":[]}```
 - add the first element in your list by running:
-```curl -X PUT -H "Content-Type: application/json" -d '{"title": "<task name>", "completed": <boolean>}' http://localhost:1234/```, where the <taskn name> is the name of your ```to do```. 
+```curl -X PUT -H "Content-Type: application/json" -d '{"title": "<task name>", "completed": <boolean>}' http://localhost:1234/```, where the task name is the name of your ```to do```. 
 EXAMPLE: ```curl -X PUT -H "Content-Type: application/json" -d '{"title": "wash the car", "completed": False}' http://localhost:1234/```
 
 ### Commands and their paths: 
