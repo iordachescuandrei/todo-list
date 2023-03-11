@@ -12,7 +12,7 @@ This is backend todo-list.
 - prereq.txt file
 
 ## how to use it:
-- run the python application using, if the app is running correct you should be able to see this output: 
+- run the python application, if the app is running correct you should be able to see this output: 
 ```
  Serving Flask app 'app'
   Debug mode: off
