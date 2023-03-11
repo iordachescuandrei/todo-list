@@ -39,5 +39,5 @@ EXAMPLE: ```curl -X PUT -H "Content-Type: application/json" -d '{"title": "wash 
 * clone the repository
 * open the terminal and navigate inside of the project folder ```cd <path to the folder > ```
 * run ```docker build -t <prefered name> . ```
-* run `` docker run -d -p <host_port>:1234```
+* run ``` docker run -d -p <host_port>:1234```
 * test with ```curl http://localhost:1234```
